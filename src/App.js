@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import { Switch, Route } from 'react-router-dom';
+// COMPONENTS:
+import Nav from './Components/Nav';
+// PAGES:
+import Home from './Pages/Home'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  
+  toggleNav(){
+    const nav = document.querySelector('.nav__ul');
+    nav.classList.toggle('flex');
+  }
+
+  render(){
+    return(
+      <>
+        <Nav toggleNav={this.toggleNav}/>
+        <Switch>
+          <Route to="/" component={Home}/>
+        </Switch>
+      </>
+    )
+  }
 }
 
 export default App;

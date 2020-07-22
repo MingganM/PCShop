@@ -1,0 +1,591 @@
+[
+    {
+        "id": 1,
+        "name": "AMD RYZEN 3 3200G Quad-Core 4.0GHz ( Vega 8)",
+        "features": {
+            "version": "Ryzen 3 3200G",
+            "cores": "4 cores",
+            "threads": "4 threads",
+            "clockspeed": "4.0GHz",
+            "socket": "AM4",
+            "TDP": "65W",
+            "PCIE":"PCIe 3.0 x 8",
+            "unlocked": true
+        },
+        "itemType": "cpu"
+    },
+    {
+        "id": 2,
+        "name": "AMD Ryzen 5 2600 Processor",
+        "features": {
+            "version": "Ryzen 5 2600",
+            "cores": "6 cores",
+            "threads": "12 threads",
+            "clockspeed": "3.9GHz",
+            "socket": "AM4",
+            "TDP": "65W",
+            "PCIE":"PCIe 3.0 x 16",
+            "unlocked": true
+        },
+        "itemType": "cpu"
+    },
+    {
+        "id": 3,
+        "name": "AMD Ryzen 5 3600X 3.8 GHz Box processor",
+        "features": {
+            "version": "Ryzen 5 3600X",
+            "cores": "6 cores",
+            "threads": "12 threads",
+            "clockspeed": "3.8GHz",
+            "socket": "AM4",
+            "TDP": "95W",
+            "PCIE":"PCIe 4.0 x 16",
+            "unlocked": true
+        },
+        "itemType": "cpu"
+    },
+    {
+        "id": 4,
+        "name": "AMD Ryzen 7 3700X 8 core, 16 thread unlocked desktop processor with Wraith Prism LED cooler",
+        "features": {
+            "version": "Ryzen 7 3700X",
+            "cores": "8 cores",
+            "threads": "16 threads",
+            "clockspeed": "3.6GHz",
+            "socket": "AM4",
+            "TDP": "65W",
+            "PCIE":"PCIe 4.0 x 16",
+            "unlocked": true
+        },
+        "itemType": "cpu"
+    },
+    {
+        "id": 5,
+        "name": "AMD RYZEN 7 3800X 8-Core 3.9 GHz (4.5 GHz Max Boost) Socket AM4 Desktop Processor",
+        "features": {
+            "version": "Ryzen 7 3800X",
+            "cores": "8 cores",
+            "threads": "16 threads",
+            "clockspeed": "3.9GHz",
+            "socket": "AM4",
+            "TDP": "105W",
+            "PCIE":"PCIe 4.0 x 16",
+            "unlocked": true
+        },
+        "itemType": "cpu"
+    },
+    {
+        "id": 6,
+        "name": "AMD RYZEN 9 3900X 12-Core 3.8 GHz (4.6 GHz Max Boost) Socket AM4 Desktop Processor",
+        "features": {
+            "version": "Ryzen 9 3900X",
+            "cores": "12 cores",
+            "threads": "24 threads",
+            "clockspeed": "3.8GHz",
+            "socket": "AM4",
+            "TDP": "95W",
+            "PCIE":"PCIe 4.0 x 16",
+            "unlocked": true
+        },
+        "itemType": "cpu"
+    },
+    {
+        "id": 7,
+        "name": "Intel Core i3-9100F Desktop Processor 4 Core up to 4.2 GHz without Integrated Graphics LGA1151",
+        "features": {
+            "version": "Intel Core i3-9100F",
+            "cores": "4 cores",
+            "threads": "4 threads",
+            "clockspeed": "3.60GHz",
+            "socket": "LGA1151",
+            "TDP": "65W",
+            "PCIE":"PCIe 3.0 x 16",
+            "unlocked": false
+        },
+        "itemType": "cpu"
+    },
+    {
+        "id": 8,
+        "name": "Intel Core i5-9400F Coffee Lake 6-Core 2.9 GHz (4.1 GHz Turbo) LGA 1151 (300 Series) 65W Desktop Processor Without Graphics",
+        "features": {
+            "version": "Intel Core i5-9400F",
+            "cores": "6 cores",
+            "threads": "6 threads",
+            "clockspeed": "2.9GHz",
+            "socket": "LGA1151",
+            "TDP": "65W",
+            "PCIE":"PCIe 3.0 x 16",
+            "unlocked": false
+        },
+        "itemType": "cpu"
+    },
+    {
+        "id": 9,
+        "name": "Intel Core i7-10700 2.9 GHz Eight-Core LGA 1200 Processor",
+        "features": {
+            "version": "Intel Core i7-10700",
+            "cores": "8 cores",
+            "threads": "16 threads",
+            "clockspeed": "2.9GHz",
+            "socket": "LGA1200",
+            "TDP": "65W",
+            "PCIE":"PCIe 3.0 x 16",
+            "unlocked": false
+        },
+        "itemType": "cpu"
+    },
+    {
+        "id": 10,
+        "name": "intel core i9-9900k processor",
+        "features": {
+            "version": "Intel Core i9-9900k",
+            "cores": "8 cores",
+            "threads": "16 threads",
+            "clockspeed": "3.60GHz",
+            "socket": "LGA1151",
+            "TDP": "95W",
+            "PCIE":"PCIe 3.0 x 16",
+            "unlocked": false
+        },
+        "itemType": "cpu"
+    },
+    {
+        "id": 11,
+        "name": "ASUS Dual GeForce GTX 1650 OC Edition Graphics Card",
+        "features": {
+            "version": "GTX 1650 OC",
+            "TDP": "75W",
+            "memory": "4GB GDDR5",
+            "PCIE":"PCIe 3.0",
+            "unlocked": true
+        },
+        "itemType": "gpu"
+    },
+    {
+        "id": 12,
+        "name": "EVGA GeForce GTX 1080 FTW Gaming, 8GB GDDR5X, ACX 3.0 & RGB LED Graphics Card",
+        "features": {
+            "version": "GeForce GTX 1080",
+            "TDP": "75W",
+            "memory": "8GB GDDR5X",
+            "PCIE":"PCIe 3.0",
+            "unlocked": false
+        },
+        "itemType": "gpu"
+    },
+    {
+        "id": 13,
+        "name": "GeForce RTX 2060 ROG Strix 6G, 6144 MB GDDR6",
+        "features": {
+            "version": "GeForce RTX 2060",
+            "TDP": "190W",
+            "memory": "6GB GDDR6",
+            "PCIE":"PCIe 3.0",
+            "unlocked": false
+        },
+        "itemType": "gpu"
+    },
+    {
+        "id": 14,
+        "name": "Gigabyte GeForce RTX 2070 SUPER™ GAMING OC 8G Graphics Card",
+        "features": {
+            "version": "GeForce RTX 2070",
+            "TDP": "175W",
+            "memory": "8GB GDDR6",
+            "PCIE":"PCIe 3.0",
+            "unlocked": true
+        },
+        "itemType": "gpu"
+    },
+    {
+        "id": 15,
+        "name": "MSI GeForce RTX 2080 TI GAMING X TRIO 11 GB Enthusiast graphics card",
+        "features": {
+            "version": "GeForce RTX 2080 TI",
+            "TDP": "250W",
+            "memory": "11GB GDDR6",
+            "PCIE":"PCIe 3.0",
+            "unlocked": false
+        },
+        "itemType": "gpu"
+    },
+    {
+        "id": 16,
+        "name": "MSI RADEON RX 570 ARMOR 8G OC Graphics Card 8GB GDDR5, 1268Hz, AMD Polaris 20 XL GPU, 3x DisplayPort, HDMI, DVI-D, Dual Fan Cooling System",
+        "features": {
+            "version": "RX 570 ARMOR",
+            "TDP": "240W",
+            "memory": "8GB GDDR5",
+            "PCIE":"PCIe 3.0",
+            "unlocked": true
+        },
+        "itemType": "gpu"
+    },
+    {
+        "id": 17,
+        "name": "XFX Radeon RX 580 GTS XXX Edition 8.0 GB OC High End graphics card",
+        "features": {
+            "version": "Radeon RX 580",
+            "TDP": "260W",
+            "memory": "8GB GDDR5",
+            "PCIE":"PCIe 3.0",
+            "unlocked": true
+        },
+        "itemType": "gpu"
+    },
+    {
+        "id": 18,
+        "name": "XFX Radeon™ RX 5700 XT 8GB GDDR6 THICC II Ultra Graphics Card",
+        "features": {
+            "version": "Radeon™ RX 5700",
+            "TDP": "250W",
+            "memory": "8GB GDDR6",
+            "PCIE":"PCIe 3.0",
+            "unlocked": false
+        },
+        "itemType": "gpu"
+    },
+    {
+        "id": 19,
+        "name": "NVIDIA GT 1030 low profile 2gb",
+        "features": {
+            "version": "GT 1030",
+            "TDP": "30W",
+            "memory": "2GB GDDR5",
+            "PCIE":"PCIe 3.0",
+            "unlocked": false
+        },
+        "itemType": "gpu"
+    },
+    {
+        "id": 20,
+        "name": "Antec Dark Phantom DP301M Black Micro ATX Case, TG Window, No PSU",
+        "features": {
+            "size": "ATX",
+            "PSU": "None"
+        },
+        "itemType": "case"
+    },
+    {
+        "id": 21,
+        "name": "AZZA Luminous 110 RGB TG Mid Tower mATX Case (No Fans)",
+        "features": {
+            "size": "mATX",
+            "PSU": "None"
+        },
+        "itemType": "case"
+    },
+    {
+        "id": 22,
+        "name": "Corsair Carbide SPEC-DELTA RGB Black ATX Case, TG Window, No PSU",
+        "features": {
+            "size": "ATX",
+            "PSU": "None"
+        },
+        "itemType": "case"
+    },
+    {
+        "id": 23,
+        "name": "Thermaltake H200 Tempered Glass RGB Mid Tower ATX Case - Black",
+        "features": {
+            "size": "ATX",
+            "PSU": "None"
+        },
+        "itemType": "case"
+    },
+    {
+        "id": 24,
+        "name": "Thermaltake S100 Tempered Glass Snow Edition Micro ATX Case, No PSU",
+        "features": {
+            "size": "Micro ATX",
+            "PSU": "None"
+        },
+        "itemType": "case"
+    },
+    {
+        "id": 25,
+        "name": "Deepcool Tesseract Black Blue ATX Case, Window, NO PSU",
+        "features": {
+            "size": "ATX",
+            "PSU": "None"
+        },
+        "itemType": "case"
+    },
+    {
+        "id": 26,
+        "name": "Deepcool Matrexx 55 Mesh ADD-RGB 4F E-ATX Case, TG Window, No PSU",
+        "features": {
+            "size": "E-ATX",
+            "PSU": "None"
+        },
+        "itemType": "case"
+    },
+    {
+        "id": 27,
+        "name": "ASUS Prime B365M-K Motherboard",
+        "features": {
+            "socket": "LGA1151",
+            "ram-version": "DDR4",
+            "ram-clockspeed":"2666mhz / 3000mhz",
+            "PCIE": "PCIe 3.0 x 16",
+            "size": "ATX"
+        },
+        "itemType": "motherboard"
+    },
+    {
+        "id": 28,
+        "name": "Asus Prime B460M A LGA 1200 mATX Motherboard",
+        "features": {
+            "socket": "LGA1200",
+            "ram-version": "DDR4",
+            "ram-clockspeed":"2666mhz / 3000mhz / 3200mhz",
+            "PCIE": "PCIe 3.0 x 16",
+            "size": "mATX"
+        },
+        "itemType": "motherboard"
+    },
+    {
+        "id": 29,
+        "name": "ASUS TUF Gaming X570-Plus (Wi-Fi) Motherboard",
+        "features": {
+            "socket": "LGA1200 / LGA1151",
+            "ram-version": "DDR4",
+            "ram-clockspeed":"2600mhz / 2666mhz / 3000mhz / 3200mhz",
+            "PCIE": "PCIe 3.0 x 16 / PCIe 3.0 x 8",
+            "size": "ATX"
+        },
+        "itemType": "motherboard"
+    },
+    {
+        "id": 30,
+        "name": "sus ROG Strix Z490-F Gaming LGA 1200 ATX Motherboard",
+        "features": {
+            "socket": "LGA1200",
+            "ram-version": "DDR4",
+            "ram-clockspeed":"2600mhz / 2666mhz / 3000mhz / 3200mhz",
+            "PCIE": "PCIe 3.0 x 16 / PCIe 3.0 x 8 (x2)",
+            "size": "eATX"
+        },
+        "itemType": "motherboard"
+    },
+    {
+        "id": 31,
+        "name": "Crucial BX500 240GB 3D NAND SATA 2.5-inch SSD",
+        "features": {
+            "storage": "240GB",
+            "size": "SATA 2.5",
+            "device": "SSD"
+        },
+        "itemType": "storage"
+    },
+    {
+        "id": 32,
+        "name": "Western Digital Red 1TB SA500 2.5 SATA SSD",
+        "features": {
+            "storage": "1TB",
+            "size": "SATA 2.5",
+            "device": "SSD"
+        },
+        "itemType": "storage"
+    },
+    {
+        "id": 33,
+        "name": "Samsung 860 QVO 1TB SSD, V-NAND 4bit MLC",
+        "features": {
+            "storage": "1TB",
+            "size": "SATA 2.5",
+            "device": "SSD"
+        },
+        "itemType": "storage"
+    },
+    {
+        "id": 34,
+        "name": "Samsung 860 QVO 2TB SSD, V-NAND 4bit MLC",
+        "features": {
+            "storage": "2TB",
+            "size": "SATA 2.5",
+            "device": "SSD"
+        },
+        "itemType": "storage"
+    },
+    {
+        "id": 35,
+        "name": "Asustor AS5304T 4-Bay NAS, 2x Seagate IronWolf 4TB HDD (Total 8TB)",
+        "features": {
+            "storage": "8TB",
+            "size": "SATA 4.5",
+            "device": "HDD"
+        },
+        "itemType": "storage"
+    },
+    {
+        "id": 36,
+        "name": "Seagate Barracuda 2TB 3.5in SATA3 256MB Cache Hard Drive ST2000DM008",
+        "features": {
+            "storage": "256MB",
+            "size": "SATA 3.5",
+            "device": "HDD"
+        },
+        "itemType": "storage"
+    },
+    {
+        "id": 37,
+        "name": "Seagate IronWolf NAS 4TB HDD, ST4000VN008",
+        "features": {
+            "storage": "4TB",
+            "size": "SATA 3.5",
+            "device": "HDD"
+        },
+        "itemType": "storage"
+    },
+    {
+        "id": 38,
+        "name": "Western Digital 2TB Blue 3.5in SATA 5400RPM Hard Drive (WD20EZAZ)",
+        "features": {
+            "storage": "2TB",
+            "size": "SATA 3.5",
+            "device": "HDD"
+        },
+        "itemType": "storage"
+    },
+    {
+        "id": 39,
+        "name": "Corsair Vengeance RGB PRO CMW16GX4M2C3200C16 16GB (2x8GB) 3200MHz DDR4",
+        "features": {
+            "memory": "16GB",
+            "clockspeed": "3200MHz",
+            "ram-version": "DDR4"
+        },
+        "itemType": "ram"
+    },
+    {
+        "id": 40,
+        "name": "Crucial 8GB (1x8GB) CT8G4DFS832A 3200MHz DDR4 RAM",
+        "features": {
+            "memory": "8GB",
+            "clockspeed": "3200MHz",
+            "ram-version": "DDR4"
+        },
+        "itemType": "ram"
+    },
+    {
+        "id": 41,
+        "name": "G.Skill 16GB (2x8GB) F4-3600C18D-16GVK Ripjaws V 3600MHz DDR4 RAM",
+        "features": {
+            "memory": "16GB",
+            "clockspeed": "3600MHz",
+            "ram-version": "DDR4"
+        },
+        "itemType": "ram"
+    },
+    {
+        "id": 42,
+        "name": "HyperX HX432C16FB3AK2 16 Fury RGB 16GB 3200MHz DDR4",
+        "features": {
+            "memory": "16GB",
+            "clockspeed": "3200MHz",
+            "ram-version": "DDR4"
+        },
+        "itemType": "ram"
+    },
+    {
+        "id": 43,
+        "name": "Juhor DDR4 4GB 8GB 16GB 2400Mhz 1.2V 288 Pin RAM Cooling Computer Memory For Desktop PC Computer - 8GB",
+        "features": {
+            "memory": "4GB / 8GB / 16GB",
+            "clockspeed": "2400MHz",
+            "ram-version": "DDR4"
+        },
+        "itemType": "ram"
+    },
+    {
+        "id": 44,
+        "name": "Kingston HyperX Fury 8GB DDR4 3000MHz RGB",
+        "features": {
+            "memory": "8GB",
+            "clockspeed": "3000MHz",
+            "ram-version": "DDR4"
+        },
+        "itemType": "ram"
+    },
+    {
+        "id": 45,
+        "name": "Silicon Power 16GB (2x8GB) DDR4 3200MHz CL16 Turbine Gaming Desktop Memory RAM",
+        "features": {
+            "memory": "16GB",
+            "clockspeed": "3200MHz",
+            "ram-version": "DDR4"
+        },
+        "itemType": "ram"
+    },
+    {
+        "id": 46,
+        "name": "Samsung 860 EVO 500GB M.2 SATA SSD",
+        "features": {
+            "storage": "500GB",
+            "size": "M.2 Sata",
+            "device": "SSD"
+        },
+        "itemType": "storage"
+    },
+    {
+        "id": 47,
+        "name": "Thermaltake 700W Smart RGB 80+ Power Supply",
+        "features": {
+            "power": "700w",
+            "rating": "80+",
+            "wire-type": "Modular"
+        },
+        "itemType": "psu"
+    },
+    {
+        "id": 48,
+        "name": "Be Quiet! Pure Power 11 CM 700W Semi Modular Gold Power Supply",
+        "features": {
+            "power": "700w",
+            "rating": "Gold 80+",
+            "wire-type": "Modular"
+        },
+        "itemType": "psu"
+    },
+    {
+        "id": 49,
+        "name": "Be Quiet! Straight Power 11 750W Modular Gold Power Supply",
+        "features": {
+            "power": "750w",
+            "rating": "Gold 80+",
+            "wire-type": "Modular"
+        },
+        "itemType": "psu"
+    },
+    {
+        "id": 50,
+        "name": "Corsair 450w CV450 80+ Bronze Power Supply (CP-9020209-AU)",
+        "features": {
+            "power": "450w",
+            "rating": "Bronze 80+",
+            "wire-type": "Modular"
+        },
+        "itemType": "psu"
+    },
+    {
+        "id": 51,
+        "name": "Power Supply 650W (ATX)",
+        "features": {
+            "power": "650w",
+            "rating": "unknown",
+            "wire-type": "Non-Modular"
+        },
+        "itemType": "psu"
+    },
+    {
+        "id": 52,
+        "name": "Generic Power Supply 550W (ATX)",
+        "features": {
+            "power": "550w",
+            "rating": "unknown",
+            "wire-type": "Non-Modular"
+        },
+        "itemType": "psu"
+    }
+]
