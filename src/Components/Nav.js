@@ -16,23 +16,25 @@ export default function Nav({toggleNav}) {
 
                 <ul className="nav__ul">
                     <li className="nav__li">
-                        <Link to="">Home</Link>
+                        <Link to="/">Home</Link>
                     </li>
 
                     <li className="nav__li">
                         <a>Products <FaArrowDown /></a>
 
                         <div className="nav__li-links">
-                            <Link to="/">Motherboard</Link>
-                            <Link to="/">RAM</Link>
-                            <Link to="/">Case</Link>
-                            <Link to="/">Graphics Card</Link>
-                            <Link to="/">CPU / Processors</Link>
+                            <Link to="/Category/motherboard">Motherboard</Link>
+                            <Link to="/Category/ram">RAM</Link>
+                            <Link to="/Category/case">Case</Link>
+                            <Link to="/Category/gpu">Graphics Card</Link>
+                            <Link to="/Category/cpu">CPU / Processors</Link>
+                            <Link to="/Category/psu">Power Supply</Link>
+                            <Link to="/Category/storage">Storage</Link>
                         </div>
                     </li>
 
                     <li className="nav__li">
-                        <Link to='/'>Cart <FaShoppingCart /></Link>
+                        <Link to='/Cart'>Cart <FaShoppingCart /></Link>
                     </li>
                 </ul>
             </div>

@@ -5,6 +5,10 @@ import { Switch, Route } from 'react-router-dom';
 import Nav from './Components/Nav';
 // PAGES:
 import Home from './Pages/Home'
+import Product from './Pages/Product';
+import Category from './Pages/Category';
+import Cart from './Pages/Cart';
+import StartPoint from './Pages/StartPoint';
 
 class App extends Component {
   
@@ -18,7 +22,11 @@ class App extends Component {
       <>
         <Nav toggleNav={this.toggleNav}/>
         <Switch>
-          <Route to="/" component={Home}/>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/products/:product" component={Product}/>
+          <Route exact path="/Category/:category" component={Category}/>
+          <Route path="/Get-Started" component={StartPoint}/>
+          <Route path="/Cart" component={Cart}/>
         </Switch>
       </>
     )

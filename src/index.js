@@ -5,11 +5,11 @@ import Context from './Context';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Context>
+  <Context>
+    <BrowserRouter>
       <App />
-    </Context>
-  </BrowserRouter> 
+    </BrowserRouter> 
+  </Context>
   ,
   document.getElementById('root')
 );
