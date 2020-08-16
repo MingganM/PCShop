@@ -466,6 +466,28 @@ button{
     z-index: 50;
     box-shadow: 0 5px 5px var(--grey);
 }
+/* -------FILTER.js------- */
+.filter{
+    display:flex;
+    justify-content: space-between;
+    margin:1rem auto;
+    padding:1rem 3rem;
+}
+.filter__item-type{
+    margin:0 0.5rem;
+}
+.filter__select{
+    border: 1px solid var(--secondary);
+    outline: none;
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+    color: var(--secondary);
+    font-size: 1rem;
+}
+.filter__select option{
+    color:white;
+    background-color: var(--secondary);
+}
 /* 600px */
 @media screen and (min-width:37.5em){ 
     .nav__btn{

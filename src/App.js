@@ -21,6 +21,7 @@ class App extends Component {
     return(
       <>
         <Nav toggleNav={this.toggleNav}/>
+      
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/products/:product" component={Product}/>

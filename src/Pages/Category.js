@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import {appContext} from '../Context';
-import {Link} from 'react-router-dom';
 import ProductList from '../Components/ProductList';
+import Filter from '../Components/Filter';
 
 export default class Category extends Component {
     static contextType = appContext;
     
     state={
         itemsToDisplay: [],
-        prevCategory: 0
+        prevCategory: null,
+        sortBy: "position"
     };
     
 
@@ -22,8 +23,39 @@ export default class Category extends Component {
                 this.setState({
                     itemsToDisplay: filteredData,
                     prevCategory: category,
-                });
+                }, this.filterData);
             }
+        }
+    }
+
+    handleFilter = (e) => {
+        const { target: { value } } = e;
+        
+        this.setState({
+            sortBy: value
+        }, this.filterData)
+    }
+
+    filterData = () => {
+        const { sortBy } = this.state;
+
+        if(sortBy === "position") return;
+        else {
+            this.setState({
+                itemsToDisplay: this.sortData(sortBy)
+            });
+        }
+    }
+
+    sortData = (value) => {
+        const { itemsToDisplay } = this.state;
+        const sortedItems = itemsToDisplay.sort((prev, cur)=> prev.price - cur.price);
+        
+        if(value === 'low'){
+            return [...sortedItems];
+        }
+        else {
+            return [...sortedItems.reverse()]
         }
     }
 
@@ -43,6 +75,7 @@ export default class Category extends Component {
             <section className="productList">
                 <h2 className="productList__title">{category}</h2>
 
+                <Filter handleFilter={this.handleFilter} />
                 <ProductList itemsToDisplay={itemsToDisplay}/>
             </section>
         )
