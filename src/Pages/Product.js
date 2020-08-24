@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {appContext} from '../Context';
+import { Link } from 'react-router-dom';
+import { FaCheckCircle } from 'react-icons/fa';
 
 export default class Product extends Component {
     static contextType = appContext;
@@ -25,6 +27,10 @@ export default class Product extends Component {
     componentDidMount(){
         const {match: {params: {product}}} = this.props;
         this.getProduct(parseInt(product));
+    }
+
+    closeNotice = () => { 
+        document.querySelector('.singleProduct__notice').style.display = "none";
     }
 
     render() {
@@ -66,10 +72,33 @@ export default class Product extends Component {
                         </div>
 
                     </div>
+
+                    <div className="singleProduct__notice">
+
+                        <div className="singleProduct__notice-container">
+                            <div className="singleProduct__notice-icon">
+                                <FaCheckCircle />
+                            </div>
+
+                            <div className="singleProduct__notice-img">
+                                <img src={`../s-images/${product.name}.jpg`} alt=""/>
+                            </div>
+
+                            <div className="singleProduct__notice-info">
+                                <h3 className="singleProduct__notice-title">{product.name}</h3>
+                            </div>
+
+                            <div className="singleProduct__notice-links">
+                                <Link to="/Cart" onClick={this.closeNotice}>Cart</Link>
+                                <Link to="/" onClick={this.closeNotice}>Home</Link>
+                            </div>
+                        </div>
+
+                    </div>
                 </section>
             ) :
             (
-                <h2>Loading Item...</h2>
+                <h2 className="loading">Loading Item...</h2>
             )
             
         )

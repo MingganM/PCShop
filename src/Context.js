@@ -52,6 +52,9 @@ export default class Context extends Component {
         const cartList = cartItems.map(item => item.id);
         let newCartItems = [];
 
+        // DISPLAYS NOTIFICATION:
+        document.querySelector('.singleProduct__notice').style.display = 'block';
+
         if(cartList.includes(choosenItem.id)){
             return;
         }
@@ -110,6 +113,9 @@ export default class Context extends Component {
         e.preventDefault();
 
         const { searchValue, productData } = this.state;
+        
+        if(searchValue === '') return;
+
         const modifiedSearchVal = searchValue.toLowerCase();
         const newSearchData = productData.filter(item => item.name.toLowerCase().includes(modifiedSearchVal));
 
@@ -117,6 +123,7 @@ export default class Context extends Component {
             searchedItems: newSearchData
         }, () => console.log(this.state.searchedItems));
     }
+
 
     render() {
         const valueData = {

@@ -49,7 +49,7 @@ export default class Cart extends Component {
             </section>
         )
         : (
-            <h2>Cart Is Empty</h2>
+            <h2 class="cart-empty">Cart Is Empty </h2>
         )
     }
 }

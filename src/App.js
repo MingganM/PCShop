@@ -14,14 +14,14 @@ class App extends Component {
   
   toggleNav(){
     const nav = document.querySelector('.nav__ul');
-    nav.classList.toggle('flex');
+    nav.classList.toggle('display-nav');
   }
 
   render(){
     return(
       <>
         <Nav toggleNav={this.toggleNav}/>
-      
+
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route exact path="/products/:product" component={Product}/>
