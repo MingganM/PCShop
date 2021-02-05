@@ -226,8 +226,8 @@ button:active{
     flex-direction: column;
 }
 .productItem{
-    display:block;
-    flex: 0 0 90%;
+    display: block;
+    flex-basis: 90%;
     margin: 1rem;
 }
 .productItem__container{
